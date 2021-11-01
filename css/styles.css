@@ -49,6 +49,8 @@ body{
     font-weight: 600;
 }
 
+
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -99,6 +101,11 @@ color: white;
     color: black;
     width: 2rem;
     height: 2rem;
+    transition: all 0.3s ease-in;
+}
+
+.social-media-links:hover,.social-media-links:active{
+    color: var(--secondcolor);
 }
 .grid
 {

@@ -2,7 +2,7 @@ document.getElementById('root').innerHTML = `
 
 <section class="social-media">
     <div class="container social-content">
-        <p class="social-text">Follow us on</p>
+        <p class="social-text">Follow us on:</p>
         <a href="#" class="social-media-links"><ion-icon name="logo-facebook" class="icon-social"></ion-icon></a>
         <a href="#" class="social-media-links"><ion-icon name="logo-twitter" class="icon-social"></ion-icon></a>
         <a href="#" class="social-media-links"><ion-icon name="logo-instagram" class="icon-social"></ion-icon></a>
