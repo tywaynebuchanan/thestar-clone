@@ -21,6 +21,7 @@ html{
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    background-color: #eeeeee;
 }
 
 .container{
@@ -54,7 +55,7 @@ body{
     align-items:center;
     height: 9.6rem;
     padding: 0 4.8rem;
-    position: relative;
+    /* position: relative; */
    background-color: var(--secondcolor);
 
 }
@@ -109,10 +110,20 @@ color: white;
 .g-3-col
 {
    
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.g-3-col
+{
+   
     grid-template-columns: repeat(3,1fr);
    
 }
 
+.mb-2
+{
+    margin-bottom: 0.5rem;
+}
 .mb
 {
     margin-bottom: 2rem;
@@ -125,7 +136,24 @@ color: white;
 
 .text-light{
     color: white;
+    
 }
+.c-light
+{
+    background-color: var(--secondcolor);
+    color: white;
+}
+
+.text-red{
+   color: white;
+    background-color: var(--secondcolor);
+}
+
+.text-bold
+{
+    font-weight: 700;
+}
+
 /**Section Hero*/
 
 .section-hero
@@ -154,25 +182,35 @@ color: white;
     background-image: url("/img/image1.jpg");
     background-position: center;
     background-size: cover;
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.36);
+    border-radius: 5px;
 }
 
 .other-news
 {
     width: 400px;
     height: 350px;
-    background-image: url("/img/image2.jpg");
+    background-image: url("/img/image4.jpg");
     background-position: center;
     background-size: cover;
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.36);
+    border-radius: 5px;
 }
 
 .cta-btn:link,.cta-btn:visited{
     padding: 1.6rem 4rem;
-    background-color: white;
-    /* border-radius: 20px; */
+    /* background-color: white; */
+   border-radius: 15px;
     text-decoration: none;
     font-size: 1.6rem;
     font-weight: 600;
-    color: black;
+    /* color: black; */
+    transition: all 0.3s ease-in;
+}
+
+.cta-btn:hover{
+    background-color: var(--secondcolor);
+    color: white;
 }
 
 .card-content
@@ -188,5 +226,35 @@ color: white;
 .news-story-text
 {
     font-size: var(--fontnormal);
+    color: #151515;
+}
+.line{
+    border-top: 2px solid #aaa;
+}
+
+/**News Section**/
+
+.news-section-1
+{
+    padding: 9.6rem 0 ;
+}
+/* .top-stories
+{
+    width: 400px;
+    height: 400px;
+} */
+
+.image-box
+{
+    width: 100%;
+}
+
+.story-box
+{
+    padding: 3.2rem 4.6rem;
+}
+
+.card-content .news-story-text{
+    color: white;
 }
 

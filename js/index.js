@@ -1,7 +1,7 @@
 document.getElementById('root').innerHTML = `
 
 <section class="social-media">
-    <div class="social-content">
+    <div class="container social-content">
         <p class="social-text">Follow us on</p>
         <a href="#" class="social-media-links"><ion-icon name="logo-facebook" class="icon-social"></ion-icon></a>
         <a href="#" class="social-media-links"><ion-icon name="logo-twitter" class="icon-social"></ion-icon></a>
@@ -34,39 +34,74 @@ document.getElementById('root').innerHTML = `
             <h1 class="heading-primary mb">
                 Get the latest News 
             </h1>
-            <h2 class="heading-secondary">
+            <h2 class="heading-secondary mb-1">
                 Jamaica's Leading News Portal
             </h2>
+            <div class="mb-1">
+                <a href="#" class="cta-btn text-red">Read More</a>
+            </div>
+          
+         
+            <p class="news-story-text text-bold">
+                Apple Glass: Makes you see clear!
+            </p>
+            <p class="news-story-text">
+               BY DR KEVIN SMITH
+            </p>
+           
+           
         </div>
         <div class="secondary-news">
             <div class="card-content">
-                <h1 class="heading-secondary mb">More In store</h1>
-                <p class="news-story-text mb">
+                <h1 class="heading-secondary mb text-light">More In store</h1>
+                <p class="news-story-text mb text-light">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus expedita autem amet explicabo adipisci non, provident ipsam eligendi voluptatem. Recusandae molestiae delectus soluta qui quos eius dolor aliquid modi impedit.
                 </p>
-                <a href="#" class="cta-btn">Read More</a>
+                <a href="#" class="cta-btn c-light">Read More</a>
             </div>
 
         </div>
         <div class="other-news">
             <div class="card-content">
-                <h1 class="heading-secondary mb">More In store</h1>
-                <p class="news-story-text mb">
+                <h1 class="heading-secondary mb text-light">Man Killed</h1>
+                <p class="news-story-text mb text-light">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus expedita autem amet explicabo adipisci non, provident ipsam eligendi voluptatem. Recusandae molestiae delectus soluta qui quos eius dolor aliquid modi impedit.
                 </p>
-                <a href="#" class="cta-btn">Read More</a>
+                <a href="#" class="cta-btn c-light">Read More</a>
             </div>
         </div>
     </div>
 
     <div class="container grid g-3-col">
         <div class="main-news">
-            <!-- <h1 class="heading-primary mb">
-                Get the latest News 
-            </h1>
-            <h2 class="heading-secondary">
-                Jamaica's Leading News Portal
-            </h2> -->
+            <p class="news-story-text text-bold mb-2">
+                Apple Glass: Makes you see clear!
+            </p>
+            <p class="news-story-text mb">
+               BY DR KEVIN SMITH
+            </p>
+           
+            <p class="news-story-text text-bold mb-2">
+                Apple Glass: Makes you see clear!
+            </p>
+            <p class="news-story-text mb">
+               BY DR KEVIN SMITH
+            </p>
+           
+            <p class="news-story-text text-bold mb-2">
+                Every day we hustling: How Scammers has taken over Jamaica
+            </p>
+            <p class="news-story-text mb">
+               BY DR KEVIN SMITH
+            </p>
+
+            <p class="news-story-text text-bold mb-2">
+                Every day we hustling: How Scammers has taken over Jamaica
+            </p>
+            <p class="news-story-text">
+               BY DR KEVIN SMITH
+            </p>
+           
         </div>
         <div class="secondary-news">
             <div class="card-content">
@@ -74,7 +109,7 @@ document.getElementById('root').innerHTML = `
                 <p class="news-story-text mb text-light">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus expedita autem amet explicabo adipisci non, provident ipsam eligendi voluptatem. Recusandae molestiae delectus soluta qui quos eius dolor aliquid modi impedit.
                 </p>
-                <a href="#" class="cta-btn">Read More</a>
+                <a href="#" class="cta-btn c-light">Read More </a>
             </div>
         </div>
         <div class="other-news">
@@ -83,11 +118,15 @@ document.getElementById('root').innerHTML = `
                 <p class="news-story-text mb text-light">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus expedita autem amet explicabo adipisci non, provident ipsam eligendi voluptatem. Recusandae molestiae delectus soluta qui quos eius dolor aliquid modi impedit.
                 </p>
-                <a href="#" class="cta-btn">Read More</a>
+                <a href="#" class="cta-btn c-light">Read More</a>
             </div>
         </div>
     </div>
 </section>
+
+<hr class="line mb">
+
+
 
 
 `;
