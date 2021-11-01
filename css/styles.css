@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --fontnormal: 1.6rem;
+    --maincolor: #9C2B31;
+    --secondcolor:#AF0D15;
+
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+.social-media
+{
+    padding: 0.5rem 1rem;
+}
+
+.social-content
+{
+    max-width: 130rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.social-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+   background-color: var(--secondcolor);
+
+}
+
+.main-nav-list
+{
+    display: flex;
+    list-style-type: none;
+    gap: 4.8rem;
+    align-items: center;
+}
+
+
+.logo{
+    width: 20rem;
+}
+
+.nav-links:visited, .nav-links:link{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: all 0.3s;
+}
+
+.nav-links:hover,.nav-links:active{
+text-decoration: underline;
+color: white;
+}
+
+.icon-arrow{
+    width: 2rem;
+    height: 2rem;
+}
+.icon-social{
+    width: 2rem;
+    height: 2rem;
+}
+.social-media-links:link,.social-media-links:visited{
+    color: black;
+    width: 2rem;
+    height: 2rem;
+}
+.grid
+{
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.g-3-col
+{
+   
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+.mb
+{
+    margin-bottom: 2rem;
+}
+
+.mb-1
+{
+    margin-bottom: 4rem;
+}
+
+.text-light{
+    color: white;
+}
+/**Section Hero*/
+
+.section-hero
+{
+    padding: 4.8rem 0;
+}
+
+.heading-primary
+{
+    font-size: 4.4rem;
+    line-height: 1;
+    
+}
+
+.heading-secondary
+{
+    font-size: 2.8rem;
+    z-index: 2;
+    
+}
+
+.secondary-news
+{
+    width: 400px;
+    height: 350px;
+    background-image: url("/img/image1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.other-news
+{
+    width: 400px;
+    height: 350px;
+    background-image: url("/img/image2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.cta-btn:link,.cta-btn:visited{
+    padding: 1.6rem 4rem;
+    background-color: white;
+    /* border-radius: 20px; */
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: black;
+}
+
+.card-content
+{
+    margin-top: 5.4rem;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: baseline;
+}
+
+.news-story-text
+{
+    font-size: var(--fontnormal);
+}
+
